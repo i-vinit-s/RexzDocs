@@ -1,0 +1,15 @@
+input: .
+output: .retype
+url: www.rexzdocs.netlify.app
+branding:
+  title: RexZ
+  label: Docs
+links:
+  - text: Home
+    link: /index.md
+  - text: Invite
+    link: https://discord.com/api/oauth2/authorize?client_id=856741116912861276&permissions=8&scope=bot%20applications.commands
+  - text: Support
+    link: https://discord.gg/YcnBaSG8AF
+footer:
+  copyright: "&copy; Copyright RexZ {{ year }}. All rights reserved."

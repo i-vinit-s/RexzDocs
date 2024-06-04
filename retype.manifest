@@ -1,0 +1,516 @@
+{
+  "version": "3.5.0",
+  "created": "2024-06-04T22:02:46Z",
+  "files": [
+    {
+      "path": ".nojekyll"
+    },
+    {
+      "path": "404.html"
+    },
+    {
+      "path": "CNAME"
+    },
+    {
+      "path": "commands\\artificialintelligence\\ask\\index.html"
+    },
+    {
+      "path": "commands\\automod\\antiban\\index.html"
+    },
+    {
+      "path": "commands\\automod\\antibot\\index.html"
+    },
+    {
+      "path": "commands\\automod\\antichannelcreate\\index.html"
+    },
+    {
+      "path": "commands\\automod\\antichanneldelete\\index.html"
+    },
+    {
+      "path": "commands\\automod\\antichannelupdate\\index.html"
+    },
+    {
+      "path": "commands\\automod\\anticommunity\\index.html"
+    },
+    {
+      "path": "commands\\automod\\antiemoji\\index.html"
+    },
+    {
+      "path": "commands\\automod\\antiemojiupdate\\index.html"
+    },
+    {
+      "path": "commands\\automod\\antieveryone\\index.html"
+    },
+    {
+      "path": "commands\\automod\\antiguildu\\index.html"
+    },
+    {
+      "path": "commands\\automod\\antikick\\index.html"
+    },
+    {
+      "path": "commands\\automod\\antimemberupdate\\index.html"
+    },
+    {
+      "path": "commands\\automod\\antipublicrole\\index.html"
+    },
+    {
+      "path": "commands\\automod\\antirolecreate\\index.html"
+    },
+    {
+      "path": "commands\\automod\\antiroledelete\\index.html"
+    },
+    {
+      "path": "commands\\automod\\antiroleupdate\\index.html"
+    },
+    {
+      "path": "commands\\automod\\antiselfbot\\index.html"
+    },
+    {
+      "path": "commands\\automod\\antiunverifiedbot\\index.html"
+    },
+    {
+      "path": "commands\\automod\\antiwebhook\\index.html"
+    },
+    {
+      "path": "commands\\fun\\addemoji\\index.html"
+    },
+    {
+      "path": "commands\\fun\\hiroast\\index.html"
+    },
+    {
+      "path": "commands\\fun\\roast\\index.html"
+    },
+    {
+      "path": "commands\\fun\\sourcebin\\index.html"
+    },
+    {
+      "path": "commands\\fun\\steal\\index.html"
+    },
+    {
+      "path": "commands\\fun\\stealsticker\\index.html"
+    },
+    {
+      "path": "commands\\fun\\urban\\index.html"
+    },
+    {
+      "path": "commands\\general\\afk\\index.html"
+    },
+    {
+      "path": "commands\\general\\avatar\\index.html"
+    },
+    {
+      "path": "commands\\general\\badges\\index.html"
+    },
+    {
+      "path": "commands\\general\\banner\\index.html"
+    },
+    {
+      "path": "commands\\general\\botstats\\index.html"
+    },
+    {
+      "path": "commands\\general\\enlarge\\index.html"
+    },
+    {
+      "path": "commands\\general\\globalavatar\\index.html"
+    },
+    {
+      "path": "commands\\general\\guildavatar\\index.html"
+    },
+    {
+      "path": "commands\\general\\guildbanner\\index.html"
+    },
+    {
+      "path": "commands\\general\\help\\index.html"
+    },
+    {
+      "path": "commands\\general\\invite\\index.html"
+    },
+    {
+      "path": "commands\\general\\membercount\\index.html"
+    },
+    {
+      "path": "commands\\general\\ping\\index.html"
+    },
+    {
+      "path": "commands\\general\\roles\\index.html"
+    },
+    {
+      "path": "commands\\general\\serverinfo\\index.html"
+    },
+    {
+      "path": "commands\\general\\snipe\\index.html"
+    },
+    {
+      "path": "commands\\general\\userinfo\\index.html"
+    },
+    {
+      "path": "commands\\giveaway\\gdelete\\index.html"
+    },
+    {
+      "path": "commands\\giveaway\\gend\\index.html"
+    },
+    {
+      "path": "commands\\giveaway\\glist\\index.html"
+    },
+    {
+      "path": "commands\\giveaway\\greroll\\index.html"
+    },
+    {
+      "path": "commands\\giveaway\\gstart\\index.html"
+    },
+    {
+      "path": "commands\\moderation\\autorole\\index.html"
+    },
+    {
+      "path": "commands\\moderation\\ban\\index.html"
+    },
+    {
+      "path": "commands\\moderation\\editembed\\index.html"
+    },
+    {
+      "path": "commands\\moderation\\embed\\index.html"
+    },
+    {
+      "path": "commands\\moderation\\kick\\index.html"
+    },
+    {
+      "path": "commands\\moderation\\purge\\index.html"
+    },
+    {
+      "path": "commands\\moderation\\roleicon\\index.html"
+    },
+    {
+      "path": "commands\\moderation\\servericon\\index.html"
+    },
+    {
+      "path": "commands\\moderation\\setprefix\\index.html"
+    },
+    {
+      "path": "commands\\moderation\\settings\\index.html"
+    },
+    {
+      "path": "commands\\moderation\\timeout\\index.html"
+    },
+    {
+      "path": "commands\\moderation\\unban\\index.html"
+    },
+    {
+      "path": "commands\\security\\anti\\index.html"
+    },
+    {
+      "path": "commands\\security\\auto\\index.html"
+    },
+    {
+      "path": "commands\\security\\config\\index.html"
+    },
+    {
+      "path": "commands\\security\\logs\\index.html"
+    },
+    {
+      "path": "commands\\security\\nightmode\\index.html"
+    },
+    {
+      "path": "commands\\security\\punishment\\index.html"
+    },
+    {
+      "path": "commands\\security\\superthreatmode\\index.html"
+    },
+    {
+      "path": "commands\\security\\threatmode\\index.html"
+    },
+    {
+      "path": "commands\\ticket\\ticketadd\\index.html"
+    },
+    {
+      "path": "commands\\ticket\\ticketcategory\\index.html"
+    },
+    {
+      "path": "commands\\ticket\\ticketedit\\index.html"
+    },
+    {
+      "path": "commands\\ticket\\ticketmodrole\\index.html"
+    },
+    {
+      "path": "commands\\ticket\\ticketremove\\index.html"
+    },
+    {
+      "path": "commands\\ticket\\ticketsetup\\index.html"
+    },
+    {
+      "path": "commands\\trustables\\addadmin\\index.html"
+    },
+    {
+      "path": "commands\\trustables\\addmod\\index.html"
+    },
+    {
+      "path": "commands\\trustables\\addowner\\index.html"
+    },
+    {
+      "path": "commands\\trustables\\admins\\index.html"
+    },
+    {
+      "path": "commands\\trustables\\mods\\index.html"
+    },
+    {
+      "path": "commands\\trustables\\owner\\index.html"
+    },
+    {
+      "path": "commands\\trustables\\removeadmin\\index.html"
+    },
+    {
+      "path": "commands\\trustables\\removemod\\index.html"
+    },
+    {
+      "path": "commands\\trustables\\removeowner\\index.html"
+    },
+    {
+      "path": "commands\\trustables\\unwhitelist\\index.html"
+    },
+    {
+      "path": "commands\\trustables\\whitelist\\index.html"
+    },
+    {
+      "path": "commands\\trustables\\wlisted\\index.html"
+    },
+    {
+      "path": "config\\index.html"
+    },
+    {
+      "path": "faq\\index.html"
+    },
+    {
+      "path": "img\\bxby.jpg"
+    },
+    {
+      "path": "img\\faq.png"
+    },
+    {
+      "path": "img\\rexz-commands.png"
+    },
+    {
+      "path": "img\\rexz.png"
+    },
+    {
+      "path": "img\\rexzconfig.png"
+    },
+    {
+      "path": "img\\rexzpp.png"
+    },
+    {
+      "path": "img\\whatisrexz.png"
+    },
+    {
+      "path": "img\\whyrexz.png"
+    },
+    {
+      "path": "index.html"
+    },
+    {
+      "path": "introduction\\whatisrexz\\index.html"
+    },
+    {
+      "path": "introduction\\whyrexz\\index.html"
+    },
+    {
+      "path": "privacypolicy\\index.html"
+    },
+    {
+      "path": "resources\\css\\retype.css"
+    },
+    {
+      "path": "resources\\fonts\\Inter-italic-latin-var.woff2"
+    },
+    {
+      "path": "resources\\fonts\\Inter-roman-latin-var.woff2"
+    },
+    {
+      "path": "resources\\js\\config.js"
+    },
+    {
+      "path": "resources\\js\\lunr.js"
+    },
+    {
+      "path": "resources\\js\\retype.js"
+    },
+    {
+      "path": "resources\\js\\search.json"
+    },
+    {
+      "path": "resources\\lunr.js.LICENSE.txt"
+    },
+    {
+      "path": "resources\\mermaid.js.LICENSE.txt"
+    },
+    {
+      "path": "resources\\prism.js.LICENSE.txt"
+    },
+    {
+      "path": "resources\\retype.js.LICENSE.txt"
+    },
+    {
+      "path": "resources\\retype.LICENSE.txt"
+    },
+    {
+      "path": "robots.txt"
+    },
+    {
+      "path": "setup\\index.html"
+    },
+    {
+      "path": "sitemap.xml.gz"
+    },
+    {
+      "path": "tags\\add\\index.html"
+    },
+    {
+      "path": "tags\\addemoji\\index.html"
+    },
+    {
+      "path": "tags\\addsticker\\index.html"
+    },
+    {
+      "path": "tags\\afk\\index.html"
+    },
+    {
+      "path": "tags\\ai\\index.html"
+    },
+    {
+      "path": "tags\\artificial-intelligence\\index.html"
+    },
+    {
+      "path": "tags\\ask\\index.html"
+    },
+    {
+      "path": "tags\\automod\\index.html"
+    },
+    {
+      "path": "tags\\avatar\\index.html"
+    },
+    {
+      "path": "tags\\badge\\index.html"
+    },
+    {
+      "path": "tags\\badges\\index.html"
+    },
+    {
+      "path": "tags\\banner\\index.html"
+    },
+    {
+      "path": "tags\\bigemoji\\index.html"
+    },
+    {
+      "path": "tags\\bin\\index.html"
+    },
+    {
+      "path": "tags\\botinfo\\index.html"
+    },
+    {
+      "path": "tags\\botstats\\index.html"
+    },
+    {
+      "path": "tags\\commands\\index.html"
+    },
+    {
+      "path": "tags\\count\\index.html"
+    },
+    {
+      "path": "tags\\emoji\\index.html"
+    },
+    {
+      "path": "tags\\enlarge\\index.html"
+    },
+    {
+      "path": "tags\\fun\\index.html"
+    },
+    {
+      "path": "tags\\general\\index.html"
+    },
+    {
+      "path": "tags\\giveaway\\index.html"
+    },
+    {
+      "path": "tags\\globalavatar\\index.html"
+    },
+    {
+      "path": "tags\\guildavatar\\index.html"
+    },
+    {
+      "path": "tags\\guildbanner\\index.html"
+    },
+    {
+      "path": "tags\\guildinfo\\index.html"
+    },
+    {
+      "path": "tags\\help\\index.html"
+    },
+    {
+      "path": "tags\\hiroast\\index.html"
+    },
+    {
+      "path": "tags\\index.html"
+    },
+    {
+      "path": "tags\\invite\\index.html"
+    },
+    {
+      "path": "tags\\latency\\index.html"
+    },
+    {
+      "path": "tags\\mc\\index.html"
+    },
+    {
+      "path": "tags\\membercount\\index.html"
+    },
+    {
+      "path": "tags\\moderation\\index.html"
+    },
+    {
+      "path": "tags\\ping\\index.html"
+    },
+    {
+      "path": "tags\\roast\\index.html"
+    },
+    {
+      "path": "tags\\security\\index.html"
+    },
+    {
+      "path": "tags\\serverinfo\\index.html"
+    },
+    {
+      "path": "tags\\snipe\\index.html"
+    },
+    {
+      "path": "tags\\sourcebin\\index.html"
+    },
+    {
+      "path": "tags\\stats\\index.html"
+    },
+    {
+      "path": "tags\\steal\\index.html"
+    },
+    {
+      "path": "tags\\stealsticker\\index.html"
+    },
+    {
+      "path": "tags\\sticker\\index.html"
+    },
+    {
+      "path": "tags\\ticket\\index.html"
+    },
+    {
+      "path": "tags\\trustables\\index.html"
+    },
+    {
+      "path": "tags\\urban\\index.html"
+    },
+    {
+      "path": "tags\\user\\index.html"
+    },
+    {
+      "path": "tags\\userinfo\\index.html"
+    },
+    {
+      "path": "tags\\userscount\\index.html"
+    }
+  ]
+}
