@@ -22,7 +22,6 @@ We have pages and pages of informations about the various functions, commands an
 - The [!button size="xs" text="Introduction"](./Introduction/WhatIsRexz.md) category informs you about what RexZ is, including a full description of its features.
 - The [!button size="xs" text="Commands"](./Commands/ArtificialIntelligence/Ask.md) category covers all RexZ's commands.
 - The [!button size="xs" text="Privacy & Policy"](./privacypolicy.md) page shows up our privacy policy in detailed view.
-- The [!button size="xs" text="FAQ"](/faq.md) let us answer popular questions for you.
 
 !!!secondary Useful links you might need !!
 [:icon-link-external: Invite Bot](https://discord.com/api/oauth2/authorize?client_id=856741116912861276&permissions=8&scope=bot%20applications.commands) <br>
