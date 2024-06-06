@@ -4,7 +4,13 @@ url: docs.rexzbot.xyz
 branding:
   title: RexZ
   label: Docs
-  logo: ./img/rexzpfp.png
+  favicon: ./img/rexzpfp.png
+meta:
+  title: " | RexZ Docs"
+search:
+  hotkeys:
+    - "/"
+  preload: true # Default is false
 links:
   - text: Home
     link: /index.md
