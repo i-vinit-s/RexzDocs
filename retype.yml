@@ -4,7 +4,7 @@ url: docs.rexzbot.xyz
 branding:
   title: RexZ
   label: Docs
-  favicon: ./img/rexzpfp.png
+  favicon: ./img/favicon.png
 meta:
   title: " | RexZ Docs"
 search:
