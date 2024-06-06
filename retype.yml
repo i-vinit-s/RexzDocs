@@ -4,7 +4,10 @@ url: docs.rexzbot.xyz
 branding:
   title: RexZ
   label: Docs
-  favicon: ./img/favicon.png
+  logo: ./img/LightRexZ.png
+  logoDark: ./img/DarkRexZ.png
+  logoAlign: Left
+favicon: ./img/favicon.png
 meta:
   title: " | RexZ Docs"
 search:
@@ -20,3 +23,8 @@ links:
     link: https://discord.gg/YcnBaSG8AF
 footer:
   copyright: "&copy; Copyright RexZ {{ year }}. All rights reserved."
+  links:
+    - text: Invite Bot
+      link: https://discord.com/api/oauth2/authorize?client_id=856741116912861276&permissions=8&scope=bot%20applications.commands
+    - text: Support Server
+      link: https://discord.gg/gDA4tthJxG
