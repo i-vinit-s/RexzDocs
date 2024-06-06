@@ -4,8 +4,8 @@ url: docs.rexzbot.xyz
 branding:
   title: RexZ
   label: Docs
-  logo: ./img/LightRexZ.png
-  logoDark: ./img/DarkRexZ.png
+  logo: ./img/DarkRexZ.png
+  logoDark: ./img/LightRexZ.png
   logoAlign: Left
 favicon: ./img/favicon.png
 meta:
