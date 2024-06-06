@@ -4,6 +4,7 @@ url: docs.rexzbot.xyz
 branding:
   title: RexZ
   label: Docs
+  logo: ./img/rexzpfp.png
 links:
   - text: Home
     link: /index.md
