@@ -7,6 +7,10 @@ branding:
   logo: ./img/DarkRexZ.png
   logoDark: ./img/LightRexZ.png
   logoAlign: Left
+  colors:
+    label:
+      text: "#fff"
+      background: "#5200A7"
 favicon: ./img/favicon.png
 meta:
   title: " | RexZ Docs"
