@@ -3,7 +3,7 @@ label: What are Crimes?
 order: 750
 icon: checklist
 author:
-  name: BxBY
+  name: [BxBY, Tom]
   avatar: ./img/bxby.jpg
 ---
 
