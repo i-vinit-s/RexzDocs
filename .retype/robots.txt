@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.rexzdocs.netlify.app/sitemap.xml.gz
+Sitemap: https://docs.rexzbot.xyz/sitemap.xml.gz

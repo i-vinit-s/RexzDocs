@@ -1,6 +1,6 @@
 {
   "version": "3.5.0",
-  "created": "2024-06-05T11:11:04Z",
+  "created": "2024-07-10T10:16:56Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -69,7 +69,11 @@
       "path": "commands\\antinuke\\antiwebhook\\index.html"
     },
     {
-      "path": "commands\\artificialintelligence\\ask\\index.html"
+      "path": "commands\\artificialintelligence\\ask\\index.html",
+      "old": true
+    },
+    {
+      "path": "commands\\artificialintelligence\\index.html"
     },
     {
       "path": "commands\\automod\\antiban\\index.html",
@@ -316,22 +320,31 @@
       "path": "commands\\security\\threatmode\\index.html"
     },
     {
-      "path": "commands\\ticket\\ticketadd\\index.html"
+      "path": "commands\\ticket-system\\index.html"
     },
     {
-      "path": "commands\\ticket\\ticketcategory\\index.html"
+      "path": "commands\\ticket\\ticketadd\\index.html",
+      "old": true
     },
     {
-      "path": "commands\\ticket\\ticketedit\\index.html"
+      "path": "commands\\ticket\\ticketcategory\\index.html",
+      "old": true
     },
     {
-      "path": "commands\\ticket\\ticketmodrole\\index.html"
+      "path": "commands\\ticket\\ticketedit\\index.html",
+      "old": true
     },
     {
-      "path": "commands\\ticket\\ticketremove\\index.html"
+      "path": "commands\\ticket\\ticketmodrole\\index.html",
+      "old": true
     },
     {
-      "path": "commands\\ticket\\ticketsetup\\index.html"
+      "path": "commands\\ticket\\ticketremove\\index.html",
+      "old": true
+    },
+    {
+      "path": "commands\\ticket\\ticketsetup\\index.html",
+      "old": true
     },
     {
       "path": "commands\\trustables\\addadmin\\index.html"
@@ -373,6 +386,9 @@
       "path": "config\\index.html"
     },
     {
+      "path": "crimes\\index.html"
+    },
+    {
       "path": "faq\\index.html",
       "old": true
     },
@@ -380,7 +396,19 @@
       "path": "img\\bxby.jpg"
     },
     {
+      "path": "img\\commands\\ai\\ask.png"
+    },
+    {
+      "path": "img\\darkrexz.png"
+    },
+    {
       "path": "img\\faq.png"
+    },
+    {
+      "path": "img\\favicon.png"
+    },
+    {
+      "path": "img\\lightrexz.png"
     },
     {
       "path": "img\\rexz-commands.png"
@@ -431,7 +459,11 @@
       "path": "resources\\js\\retype.js"
     },
     {
-      "path": "resources\\js\\search.json"
+      "path": "resources\\js\\search.js"
+    },
+    {
+      "path": "resources\\js\\search.json",
+      "old": true
     },
     {
       "path": "resources\\lunr.js.LICENSE.txt"
@@ -593,7 +625,8 @@
       "path": "tags\\sticker\\index.html"
     },
     {
-      "path": "tags\\ticket\\index.html"
+      "path": "tags\\ticket\\index.html",
+      "old": true
     },
     {
       "path": "tags\\trustables\\index.html"
