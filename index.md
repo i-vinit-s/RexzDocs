@@ -22,7 +22,7 @@ Join countless Discord servers worldwide that trust RexZ to keep their communiti
 We have pages and pages of informations about the various functions, commands and settings, all organized into different categories.(Given Below):
 - The [!button size="xs" text="Introduction"](./Introduction/WhatIsRexz.md) category informs you about what RexZ is, including a full description of its features.
 - The [!button size="xs" text="Introduction"](./setup.md) page displays easy and fast setup method.
-- The [!button size="xs" text="Commands"](./Commands/ArtificialIntelligence/Ask.md) category covers all RexZ's commands.
+- The [!button size="xs" text="Commands"](./Commands/ArtificialIntelligence/) category covers all RexZ's commands.
 - The [!button size="xs" text="Privacy & Policy"](./privacypolicy.md) page shows up our privacy policy in detailed view.
 
 !!!secondary Useful links you might need !!
