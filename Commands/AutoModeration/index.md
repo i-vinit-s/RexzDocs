@@ -7,7 +7,7 @@ author:
     avatar: ../../img/bxby.jpg
   - name: Tom
     avatar: ../../img/Tom.png
-tags: [automoderation]
+tags: [automoderation, automod]
 ---
 
 # Auto Moderation
