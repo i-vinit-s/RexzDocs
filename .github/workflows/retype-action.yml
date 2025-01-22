@@ -18,13 +18,25 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Install .NET and dependencies
+      - name: Install .NET SDK
         run: |
           sudo apt-get update
           wget https://dot.net/v1/dotnet-install.sh
           chmod +x dotnet-install.sh
           ./dotnet-install.sh --channel 7.0
-          export PATH=$PATH:$HOME/.dotnet
+          echo "DOTNET_ROOT=$HOME/.dotnet" >> $GITHUB_ENV
+          echo "$HOME/.dotnet:$HOME/.dotnet/tools" >> $GITHUB_PATH
 
       - name: Add Retype NuGet source
-        run: dot
+        run: dotnet nuget add source https://nuget.retype.com/v3/index.json -n retype
+
+      - name: Install Retype CLI
+        run: dotnet tool install --global retype --add-source https://nuget.retype.com/v3/index.json
+
+      - name: Build Retype Documentation
+        run: retype build
+
+      - name: Publish to GitHub Pages
+        uses: retypeapp/action-github-pages@latest
+        with:
+          update-branch: true
