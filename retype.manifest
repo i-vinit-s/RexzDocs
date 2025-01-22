@@ -1,6 +1,6 @@
 {
-  "version": "3.5.0",
-  "created": "2024-07-10T10:16:56Z",
+  "version": "3.6.0",
+  "created": "2025-01-22T18:39:40Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -12,61 +12,83 @@
       "path": "CNAME"
     },
     {
-      "path": "commands\\antinuke\\antiban\\index.html"
+      "path": "commands\\antinuke\\antiban\\index.html",
+      "old": true
     },
     {
-      "path": "commands\\antinuke\\antibot\\index.html"
+      "path": "commands\\antinuke\\antibot\\index.html",
+      "old": true
     },
     {
-      "path": "commands\\antinuke\\antichannelcreate\\index.html"
+      "path": "commands\\antinuke\\antichannelcreate\\index.html",
+      "old": true
     },
     {
-      "path": "commands\\antinuke\\antichanneldelete\\index.html"
+      "path": "commands\\antinuke\\antichanneldelete\\index.html",
+      "old": true
     },
     {
-      "path": "commands\\antinuke\\antichannelupdate\\index.html"
+      "path": "commands\\antinuke\\antichannelupdate\\index.html",
+      "old": true
     },
     {
-      "path": "commands\\antinuke\\anticommunity\\index.html"
+      "path": "commands\\antinuke\\anticommunity\\index.html",
+      "old": true
     },
     {
-      "path": "commands\\antinuke\\antiemoji\\index.html"
+      "path": "commands\\antinuke\\antiemoji\\index.html",
+      "old": true
     },
     {
-      "path": "commands\\antinuke\\antiemojiupdate\\index.html"
+      "path": "commands\\antinuke\\antiemojiupdate\\index.html",
+      "old": true
     },
     {
-      "path": "commands\\antinuke\\antieveryone\\index.html"
+      "path": "commands\\antinuke\\antieveryone\\index.html",
+      "old": true
     },
     {
-      "path": "commands\\antinuke\\antiguildu\\index.html"
+      "path": "commands\\antinuke\\antiguildu\\index.html",
+      "old": true
     },
     {
-      "path": "commands\\antinuke\\antikick\\index.html"
+      "path": "commands\\antinuke\\antikick\\index.html",
+      "old": true
     },
     {
-      "path": "commands\\antinuke\\antimemberupdate\\index.html"
+      "path": "commands\\antinuke\\antimemberupdate\\index.html",
+      "old": true
     },
     {
-      "path": "commands\\antinuke\\antipublicrole\\index.html"
+      "path": "commands\\antinuke\\antipublicrole\\index.html",
+      "old": true
     },
     {
-      "path": "commands\\antinuke\\antirolecreate\\index.html"
+      "path": "commands\\antinuke\\antirolecreate\\index.html",
+      "old": true
     },
     {
-      "path": "commands\\antinuke\\antiroledelete\\index.html"
+      "path": "commands\\antinuke\\antiroledelete\\index.html",
+      "old": true
     },
     {
-      "path": "commands\\antinuke\\antiroleupdate\\index.html"
+      "path": "commands\\antinuke\\antiroleupdate\\index.html",
+      "old": true
     },
     {
-      "path": "commands\\antinuke\\antiselfbot\\index.html"
+      "path": "commands\\antinuke\\antiselfbot\\index.html",
+      "old": true
     },
     {
-      "path": "commands\\antinuke\\antiunverifiedbot\\index.html"
+      "path": "commands\\antinuke\\antiunverifiedbot\\index.html",
+      "old": true
     },
     {
-      "path": "commands\\antinuke\\antiwebhook\\index.html"
+      "path": "commands\\antinuke\\antiwebhook\\index.html",
+      "old": true
+    },
+    {
+      "path": "commands\\antinuke\\index.html"
     },
     {
       "path": "commands\\artificialintelligence\\ask\\index.html",
@@ -152,25 +174,35 @@
       "old": true
     },
     {
-      "path": "commands\\automoderation\\antilink\\index.html"
+      "path": "commands\\automoderation\\antilink\\index.html",
+      "old": true
     },
     {
-      "path": "commands\\automoderation\\automoduwl\\index.html"
+      "path": "commands\\automoderation\\automoduwl\\index.html",
+      "old": true
     },
     {
-      "path": "commands\\automoderation\\automodwl\\index.html"
+      "path": "commands\\automoderation\\automodwl\\index.html",
+      "old": true
     },
     {
-      "path": "commands\\automoderation\\automodwllist\\index.html"
+      "path": "commands\\automoderation\\automodwllist\\index.html",
+      "old": true
     },
     {
-      "path": "commands\\automoderation\\channeluwl\\index.html"
+      "path": "commands\\automoderation\\channeluwl\\index.html",
+      "old": true
     },
     {
-      "path": "commands\\automoderation\\channelwl\\index.html"
+      "path": "commands\\automoderation\\channelwl\\index.html",
+      "old": true
     },
     {
-      "path": "commands\\automoderation\\channelwllist\\index.html"
+      "path": "commands\\automoderation\\channelwllist\\index.html",
+      "old": true
+    },
+    {
+      "path": "commands\\automoderation\\index.html"
     },
     {
       "path": "commands\\fun\\addemoji\\index.html"
@@ -399,6 +431,171 @@
       "path": "img\\commands\\ai\\ask.png"
     },
     {
+      "path": "img\\commands\\automod\\antialt.png"
+    },
+    {
+      "path": "img\\commands\\automod\\antib.png"
+    },
+    {
+      "path": "img\\commands\\automod\\antiban.png"
+    },
+    {
+      "path": "img\\commands\\automod\\antibanoff.png"
+    },
+    {
+      "path": "img\\commands\\automod\\antibotoff.png"
+    },
+    {
+      "path": "img\\commands\\automod\\antiboton.png"
+    },
+    {
+      "path": "img\\commands\\automod\\antic.png"
+    },
+    {
+      "path": "img\\commands\\automod\\anticap.png"
+    },
+    {
+      "path": "img\\commands\\automod\\antichannelc.png"
+    },
+    {
+      "path": "img\\commands\\automod\\antichannelcoff.png"
+    },
+    {
+      "path": "img\\commands\\automod\\antichanneld.png"
+    },
+    {
+      "path": "img\\commands\\automod\\antichanneldoff.png"
+    },
+    {
+      "path": "img\\commands\\automod\\antichannelu.png"
+    },
+    {
+      "path": "img\\commands\\automod\\antichanneluoff.png"
+    },
+    {
+      "path": "img\\commands\\automod\\anticoff.png"
+    },
+    {
+      "path": "img\\commands\\automod\\antiemoji.png"
+    },
+    {
+      "path": "img\\commands\\automod\\antiemojioff.png"
+    },
+    {
+      "path": "img\\commands\\automod\\antiemojion.png"
+    },
+    {
+      "path": "img\\commands\\automod\\antiemojiuoff.png"
+    },
+    {
+      "path": "img\\commands\\automod\\antiemojiuon.png"
+    },
+    {
+      "path": "img\\commands\\automod\\antieveryoneoff.png"
+    },
+    {
+      "path": "img\\commands\\automod\\antieveryoneon.png"
+    },
+    {
+      "path": "img\\commands\\automod\\antiguilduoff.png"
+    },
+    {
+      "path": "img\\commands\\automod\\antiguilduon.png"
+    },
+    {
+      "path": "img\\commands\\automod\\antikick.png"
+    },
+    {
+      "path": "img\\commands\\automod\\antikickoff.png"
+    },
+    {
+      "path": "img\\commands\\automod\\antilink.png"
+    },
+    {
+      "path": "img\\commands\\automod\\antilink2.png"
+    },
+    {
+      "path": "img\\commands\\automod\\antilink3.png"
+    },
+    {
+      "path": "img\\commands\\automod\\antilinkauto.png"
+    },
+    {
+      "path": "img\\commands\\automod\\antimemberupdateoff.png"
+    },
+    {
+      "path": "img\\commands\\automod\\antimemberupdateon.png"
+    },
+    {
+      "path": "img\\commands\\automod\\antipublic.png"
+    },
+    {
+      "path": "img\\commands\\automod\\antipublicadd.png"
+    },
+    {
+      "path": "img\\commands\\automod\\antipublicoff.png"
+    },
+    {
+      "path": "img\\commands\\automod\\antirolec.png"
+    },
+    {
+      "path": "img\\commands\\automod\\antirolecoff.png"
+    },
+    {
+      "path": "img\\commands\\automod\\antiroled.png"
+    },
+    {
+      "path": "img\\commands\\automod\\antiroledoff.png"
+    },
+    {
+      "path": "img\\commands\\automod\\antiroleuoff.png"
+    },
+    {
+      "path": "img\\commands\\automod\\antiroleuon.png"
+    },
+    {
+      "path": "img\\commands\\automod\\antiselfbotoff.png"
+    },
+    {
+      "path": "img\\commands\\automod\\antiselfboton.png"
+    },
+    {
+      "path": "img\\commands\\automod\\antiunverioff.png"
+    },
+    {
+      "path": "img\\commands\\automod\\antiunverion.png"
+    },
+    {
+      "path": "img\\commands\\automod\\antiweboff.png"
+    },
+    {
+      "path": "img\\commands\\automod\\antiwebon.png"
+    },
+    {
+      "path": "img\\commands\\automod\\autmodwl.png"
+    },
+    {
+      "path": "img\\commands\\automod\\automodconfig.png"
+    },
+    {
+      "path": "img\\commands\\automod\\automoduwl.png"
+    },
+    {
+      "path": "img\\commands\\automod\\automodwl.png"
+    },
+    {
+      "path": "img\\commands\\automod\\automodwllist.png"
+    },
+    {
+      "path": "img\\commands\\automod\\channeluwl.png"
+    },
+    {
+      "path": "img\\commands\\automod\\channelwl.png"
+    },
+    {
+      "path": "img\\commands\\automod\\channelwllist.png"
+    },
+    {
       "path": "img\\darkrexz.png"
     },
     {
@@ -421,6 +618,9 @@
     },
     {
       "path": "img\\rexzpp.png"
+    },
+    {
+      "path": "img\\tom.png"
     },
     {
       "path": "img\\whatisrexz.png"
@@ -505,6 +705,9 @@
       "path": "tags\\ai\\index.html"
     },
     {
+      "path": "tags\\antinuke\\index.html"
+    },
+    {
       "path": "tags\\artificial-intelligence\\index.html"
     },
     {
@@ -512,6 +715,9 @@
     },
     {
       "path": "tags\\automod\\index.html"
+    },
+    {
+      "path": "tags\\automoderation\\index.html"
     },
     {
       "path": "tags\\avatar\\index.html"
