@@ -26,8 +26,7 @@ jobs:
           ./dotnet-install.sh --channel 7.0
           echo "DOTNET_ROOT=$HOME/.dotnet" >> $GITHUB_ENV
           echo "$HOME/.dotnet:$HOME/.dotnet/tools" >> $GITHUB_PATH
-
-      - name: Build Retype Documentation
+          
       - uses: retypeapp/action-build@latest
 
       - name: Publish to GitHub Pages
