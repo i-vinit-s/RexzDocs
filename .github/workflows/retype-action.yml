@@ -18,7 +18,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Install dependencies
+      - name: Install .NET and dependencies
         run: |
           sudo apt-get update
           wget https://dot.net/v1/dotnet-install.sh
@@ -26,8 +26,12 @@ jobs:
           ./dotnet-install.sh --channel 7.0
           export PATH=$PATH:$HOME/.dotnet
 
+      - name: Add Retype NuGet source
+        run: |
+          dotnet nuget add source --name retype --source https://nuget.retype.com/v3/index.json
+
       - name: Install Retype CLI
-        run: dotnet tool install --global retype
+        run: dotnet tool install --global retype --add-source https://nuget.retype.com/v3/index.json
 
       - name: Build Retype Documentation
         run: |
