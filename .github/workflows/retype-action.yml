@@ -15,10 +15,26 @@ jobs:
       contents: write
 
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout repository
+        uses: actions/checkout@v2
 
-      - uses: retypeapp/action-build@latest
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          wget https://dot.net/v1/dotnet-install.sh
+          chmod +x dotnet-install.sh
+          ./dotnet-install.sh --channel 7.0
+          export PATH=$PATH:$HOME/.dotnet
 
-      - uses: retypeapp/action-github-pages@latest
+      - name: Install Retype CLI
+        run: dotnet tool install --global retype
+
+      - name: Build Retype Documentation
+        run: |
+          export PATH=$PATH:$HOME/.dotnet/tools
+          retype build
+
+      - name: Publish to GitHub Pages
+        uses: retypeapp/action-github-pages@latest
         with:
           update-branch: true
