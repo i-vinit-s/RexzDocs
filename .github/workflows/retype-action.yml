@@ -27,14 +27,8 @@ jobs:
           echo "DOTNET_ROOT=$HOME/.dotnet" >> $GITHUB_ENV
           echo "$HOME/.dotnet:$HOME/.dotnet/tools" >> $GITHUB_PATH
 
-      - name: Add Retype NuGet source
-        run: dotnet nuget add source https://nuget.retype.com/v3/index.json -n retype
-
-      - name: Install Retype CLI
-        run: dotnet tool install --global retype --add-source https://nuget.retype.com/v3/index.json
-
       - name: Build Retype Documentation
-        run: retype build
+      - uses: retypeapp/action-build@latest
 
       - name: Publish to GitHub Pages
         uses: retypeapp/action-github-pages@latest
