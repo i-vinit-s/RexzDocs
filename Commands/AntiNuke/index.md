@@ -29,8 +29,9 @@ Anti-Nuke refers to a set of protective measures designed to safeguard a Discord
 - Anti channel delete
 - Anti channel update
 - Anti community
-- Anti Emoji
-- Anti EmojiUpdate
+- Anti Emoji create
+- Anti Emoji delete
+- Anti Emoji Update
 - Anti Everyone
 - Anti GuildUpdate
 - Anti Kick
