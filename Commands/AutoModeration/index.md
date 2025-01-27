@@ -220,7 +220,7 @@ Aliases   | Usage
 ---       | ---
 None      | antiemoji [on/off] [limit] [timeout/no]
 
---![](../../img/Commands/AutoMod/antiemoji.png)--
+<!-- --![](../../img/Commands/AutoMod/antiemoji.png)-- -->
 
 ---
 
