@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.790889454129">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.791289937797">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.6.0">
@@ -33,12 +33,12 @@
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../img/favicon.png" rel="icon">
-    <link href="../../resources/css/retype.css?v=3.6.0.790889454129" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.6.0.791289937797" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.6.0.790889454129" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.6.0.791289937797" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.6.0" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="../../resources/js/search.js?v=3.6.0.790889454129" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.6.0.790889454129" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/search.js?v=3.6.0.791289937797" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.6.0.791289937797" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -228,6 +228,35 @@
 <li><strong>User-Friendly Commands:</strong> Effortlessly manage the Anti-Nuke feature using simple and intuitive commands.</li>
 </ul>
 <hr>
+<doc-anchor-target id="anti-nuke-features-in-rexz">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#anti-nuke-features-in-rexz">#</doc-anchor-trigger>
+        <span>Anti Nuke Features in RexZ</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li>Antiban</li>
+<li>Antibot</li>
+<li>Anti channel create</li>
+<li>Anti channel delete</li>
+<li>Anti channel update</li>
+<li>Anti community</li>
+<li>Anti Emoji create</li>
+<li>Anti Emoji delete</li>
+<li>Anti Emoji Update</li>
+<li>Anti Everyone</li>
+<li>Anti GuildUpdate</li>
+<li>Anti Kick</li>
+<li>Anti Member Update</li>
+<li>Anti Public Role</li>
+<li>Anti Role Create</li>
+<li>Anti Role Delete</li>
+<li>Anti Role Update</li>
+<li>Anti Self Bot</li>
+<li>Anti Unverified Bot</li>
+<li>Anti Webhook</li>
+</ul>
+<hr>
 <doc-anchor-target id="anti-ban">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#anti-ban">#</doc-anchor-trigger>
@@ -316,6 +345,22 @@ For example on [<strong>-antiban 1</strong>] bot will get triggered on 1 ban by 
     </h3>
 </doc-anchor-target>
 <p>Set guild&#x27;s channel create limit. For example [<strong>-antichannelc 2</strong>] bot will be triggered when the user tries to create second channel in guild.</p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="compact">
+<thead>
+<tr>
+<th>Aliases</th>
+<th>Usage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>anticc</td>
+<td>antichannelc &lt;1/2/3/4/...&gt;</td>
+</tr>
+</tbody>
+</table>
+</div>
 <doc-anchor-target id="example-2">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#example-2">#</doc-anchor-trigger>
@@ -323,8 +368,8 @@ For example on [<strong>-antiban 1</strong>] bot will get triggered on 1 ban by 
     </h3>
 </doc-anchor-target>
 <p><figure class="content-center">
-    <img src="../../img/commands/automod/antichannelc.png" alt="antichannel create value" class="w-full">
-    <figcaption class="caption">antichannel create value</figcaption>
+    <img src="../../img/commands/automod/antichannelc.png" alt="antichannel create limit" class="w-full">
+    <figcaption class="caption">antichannel create limit</figcaption>
 </figure>
 <figure class="content-center">
     <img src="../../img/commands/automod/antichannelcoff.png" alt="antichannel create off" class="w-full">
@@ -345,6 +390,22 @@ For example on [<strong>-antiban 1</strong>] bot will get triggered on 1 ban by 
     </h3>
 </doc-anchor-target>
 <p>Set guild&#x27;s channel delete limit. For example [<strong>-antichanneld 3</strong>] bot will be triggered when the user tries to delete third channel in guild.</p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="compact">
+<thead>
+<tr>
+<th>Aliases</th>
+<th>Usage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>anticd</td>
+<td>antichanneld &lt;1/2/3/4/...&gt;</td>
+</tr>
+</tbody>
+</table>
+</div>
 <doc-anchor-target id="example-3">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#example-3">#</doc-anchor-trigger>
@@ -352,8 +413,8 @@ For example on [<strong>-antiban 1</strong>] bot will get triggered on 1 ban by 
     </h3>
 </doc-anchor-target>
 <p><figure class="content-center">
-    <img src="../../img/commands/automod/antichanneld.png" alt="antichannel delete value" class="w-full">
-    <figcaption class="caption">antichannel delete value</figcaption>
+    <img src="../../img/commands/automod/antichanneld.png" alt="antichannel delete limit" class="w-full">
+    <figcaption class="caption">antichannel delete limit</figcaption>
 </figure>
 <figure class="content-center">
     <img src="../../img/commands/automod/antichanneldoff.png" alt="antichannel delete off" class="w-full">
@@ -374,6 +435,22 @@ For example on [<strong>-antiban 1</strong>] bot will get triggered on 1 ban by 
     </h3>
 </doc-anchor-target>
 <p>Enabling anti channel update will restrict users to update any channel in guild.</p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="compact">
+<thead>
+<tr>
+<th>Aliases</th>
+<th>Usage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>anticu</td>
+<td>antichannelu &lt;1/2/3/4/...&gt;</td>
+</tr>
+</tbody>
+</table>
+</div>
 <doc-anchor-target id="example-4">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#example-4">#</doc-anchor-trigger>
@@ -381,8 +458,8 @@ For example on [<strong>-antiban 1</strong>] bot will get triggered on 1 ban by 
     </h3>
 </doc-anchor-target>
 <p><figure class="content-center">
-    <img src="../../img/commands/automod/antichannelu.png" alt="antichannel update on" class="w-full">
-    <figcaption class="caption">antichannel update on</figcaption>
+    <img src="../../img/commands/automod/antichannelu.png" alt="antichannel update limit" class="w-full">
+    <figcaption class="caption">antichannel update limit</figcaption>
 </figure>
 <figure class="content-center">
     <img src="../../img/commands/automod/antichanneluoff.png" alt="antichannel update off" class="w-full">
@@ -403,6 +480,22 @@ For example on [<strong>-antiban 1</strong>] bot will get triggered on 1 ban by 
     </h3>
 </doc-anchor-target>
 <p>anti community restrict users from enabling or disabling community in guild .</p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="compact">
+<thead>
+<tr>
+<th>Aliases</th>
+<th>Usage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>anticom</td>
+<td>anticommunity &lt;on/off&gt;</td>
+</tr>
+</tbody>
+</table>
+</div>
 <doc-anchor-target id="example-5">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#example-5">#</doc-anchor-trigger>
@@ -419,19 +512,35 @@ For example on [<strong>-antiban 1</strong>] bot will get triggered on 1 ban by 
 </figure>
 </p>
 <hr>
-<doc-anchor-target id="anti-emoji">
+<doc-anchor-target id="anti-emoji-create">
     <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#anti-emoji">#</doc-anchor-trigger>
-        <span>Anti emoji</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#anti-emoji-create">#</doc-anchor-trigger>
+        <span>Anti emoji create</span>
     </h2>
 </doc-anchor-target>
-<doc-anchor-target id="what-is-antiemoji">
+<doc-anchor-target id="what-is-antiemojicreate">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#what-is-antiemoji">#</doc-anchor-trigger>
-        <span>What is AntiEmoji?</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#what-is-antiemojicreate">#</doc-anchor-trigger>
+        <span>What is AntiEmojiCreate?</span>
     </h3>
 </doc-anchor-target>
-<p>Enabling anti emoji restricts user from adding or removing emoji in guild.</p>
+<p>Enabling anti emoji restricts user from adding emoji in guild.</p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="compact">
+<thead>
+<tr>
+<th>Aliases</th>
+<th>Usage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>antiec</td>
+<td>antiemojicreate &lt;1/2/3/4/...&gt;</td>
+</tr>
+</tbody>
+</table>
+</div>
 <doc-anchor-target id="example-6">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#example-6">#</doc-anchor-trigger>
@@ -439,12 +548,57 @@ For example on [<strong>-antiban 1</strong>] bot will get triggered on 1 ban by 
     </h3>
 </doc-anchor-target>
 <p><figure class="content-center">
-    <img src="../../img/commands/automod/antiemojion.png" alt="antiemoji on" class="w-full">
-    <figcaption class="caption">antiemoji on</figcaption>
+    <img src="../../img/commands/automod/antiemojicon.png" alt="antiemoji create limit" class="w-full">
+    <figcaption class="caption">antiemoji create limit</figcaption>
 </figure>
 <figure class="content-center">
-    <img src="../../img/commands/automod/antiemojioff.png" alt="antiemoji off" class="w-full">
-    <figcaption class="caption">antiemoji off</figcaption>
+    <img src="../../img/commands/automod/antiemojicoff.png" alt="antiemoji create off" class="w-full">
+    <figcaption class="caption">antiemoji create off</figcaption>
+</figure>
+</p>
+<hr>
+<doc-anchor-target id="anti-emoji-delete">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#anti-emoji-delete">#</doc-anchor-trigger>
+        <span>Anti emoji delete</span>
+    </h2>
+</doc-anchor-target>
+<doc-anchor-target id="what-is-antiemojidelete">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#what-is-antiemojidelete">#</doc-anchor-trigger>
+        <span>What is AntiEmojiDelete?</span>
+    </h3>
+</doc-anchor-target>
+<p>Enabling anti emoji restricts user from deleting emoji in guild.</p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="compact">
+<thead>
+<tr>
+<th>Aliases</th>
+<th>Usage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>antied</td>
+<td>antiemojidelete &lt;1/2/3/4/...&gt;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<doc-anchor-target id="example-7">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#example-7">#</doc-anchor-trigger>
+        <span>Example</span>
+    </h3>
+</doc-anchor-target>
+<p><figure class="content-center">
+    <img src="../../img/commands/automod/antiemojidon.png" alt="antiemoji delete limit" class="w-full">
+    <figcaption class="caption">antiemoji delete limit</figcaption>
+</figure>
+<figure class="content-center">
+    <img src="../../img/commands/automod/antiemojidoff.png" alt="antiemoji delete off" class="w-full">
+    <figcaption class="caption">antiemoji delete off</figcaption>
 </figure>
 </p>
 <hr>
@@ -461,18 +615,34 @@ For example on [<strong>-antiban 1</strong>] bot will get triggered on 1 ban by 
     </h3>
 </doc-anchor-target>
 <p>Enabling anti emoji update restricts user from updating emoji name in guild.</p>
-<doc-anchor-target id="example-7">
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="compact">
+<thead>
+<tr>
+<th>Aliases</th>
+<th>Usage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>antieu</td>
+<td>antiemojiupdate &lt;1/2/3/4/...&gt;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<doc-anchor-target id="example-8">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#example-7">#</doc-anchor-trigger>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#example-8">#</doc-anchor-trigger>
         <span>Example</span>
     </h3>
 </doc-anchor-target>
 <p><figure class="content-center">
-    <img src="../../img/commands/automod/antiemojiuon.png" alt="antiemoji update on" class="w-full">
-    <figcaption class="caption">antiemoji update on</figcaption>
+    <img src="../../img/commands/automod/antiemojiupon.png" alt="antiemoji update limit" class="w-full">
+    <figcaption class="caption">antiemoji update limit</figcaption>
 </figure>
 <figure class="content-center">
-    <img src="../../img/commands/automod/antiemojiuoff.png" alt="antiemoji update off" class="w-full">
+    <img src="../../img/commands/automod/antiemojiupoff.png" alt="antiemoji update off" class="w-full">
     <figcaption class="caption">antiemoji update off</figcaption>
 </figure>
 </p>
@@ -490,9 +660,9 @@ For example on [<strong>-antiban 1</strong>] bot will get triggered on 1 ban by 
     </h3>
 </doc-anchor-target>
 <p>Enablung anti everyone restricts user from using <strong>@everyone</strong> tag in guild.</p>
-<doc-anchor-target id="example-8">
+<doc-anchor-target id="example-9">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#example-8">#</doc-anchor-trigger>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#example-9">#</doc-anchor-trigger>
         <span>Example</span>
     </h3>
 </doc-anchor-target>
@@ -519,18 +689,34 @@ For example on [<strong>-antiban 1</strong>] bot will get triggered on 1 ban by 
     </h3>
 </doc-anchor-target>
 <p>Enabling anti guild update restricts user from updating the guild.</p>
-<doc-anchor-target id="example-9">
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="compact">
+<thead>
+<tr>
+<th>Aliases</th>
+<th>Usage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>antigu</td>
+<td>antiguildupdate &lt;1/2/3/4/...&gt;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<doc-anchor-target id="example-10">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#example-9">#</doc-anchor-trigger>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#example-10">#</doc-anchor-trigger>
         <span>Example</span>
     </h3>
 </doc-anchor-target>
 <p><figure class="content-center">
-    <img src="../../img/commands/automod/antiguilduon.png" alt="antiguild update on" class="w-full">
-    <figcaption class="caption">antiguild update on</figcaption>
+    <img src="../../img/commands/automod/antiguon.png" alt="antiguild update limit" class="w-full">
+    <figcaption class="caption">antiguild update limit</figcaption>
 </figure>
 <figure class="content-center">
-    <img src="../../img/commands/automod/antiguilduoff.png" alt="antiguild update off" class="w-full">
+    <img src="../../img/commands/automod/antiguoff.png" alt="antiguild update off" class="w-full">
     <figcaption class="caption">antiguild update off</figcaption>
 </figure>
 </p>
@@ -549,18 +735,34 @@ For example on [<strong>-antiban 1</strong>] bot will get triggered on 1 ban by 
 </doc-anchor-target>
 <p>Sets limit on how many kicks bot will get triggered and take action on the user who used kick.
 For example on [<strong>-antikick 1</strong>] bot will get triggered on 1 kick by anyone and bot will take action against that user.</p>
-<doc-anchor-target id="example-10">
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="compact">
+<thead>
+<tr>
+<th>Aliases</th>
+<th>Usage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>antik</td>
+<td>antikick &lt;1/2/3/4/...&gt;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<doc-anchor-target id="example-11">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#example-10">#</doc-anchor-trigger>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#example-11">#</doc-anchor-trigger>
         <span>Example</span>
     </h3>
 </doc-anchor-target>
 <p><figure class="content-center">
-    <img src="../../img/commands/automod/antiban.png" alt="antikick limit" class="w-full">
+    <img src="../../img/commands/automod/antikick.png" alt="antikick limit" class="w-full">
     <figcaption class="caption">antikick limit</figcaption>
 </figure>
 <figure class="content-center">
-    <img src="../../img/commands/automod/antibanoff.png" alt="antikick off" class="w-full">
+    <img src="../../img/commands/automod/antikickoff.png" alt="antikick off" class="w-full">
     <figcaption class="caption">antikick off</figcaption>
 </figure>
 </p>
@@ -578,15 +780,31 @@ For example on [<strong>-antikick 1</strong>] bot will get triggered on 1 kick b
     </h3>
 </doc-anchor-target>
 <p>Enabling anti member update restricts user from updating their/others role with dangerous permission in guild.</p>
-<doc-anchor-target id="example-11">
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="compact">
+<thead>
+<tr>
+<th>Aliases</th>
+<th>Usage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>antimu</td>
+<td>antimemberupdate &lt;1/2/3/4/...&gt;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<doc-anchor-target id="example-12">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#example-11">#</doc-anchor-trigger>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#example-12">#</doc-anchor-trigger>
         <span>Example</span>
     </h3>
 </doc-anchor-target>
 <p><figure class="content-center">
-    <img src="../../img/commands/automod/antimemberupdateon.png" alt="antimember update on" class="w-full">
-    <figcaption class="caption">antimember update on</figcaption>
+    <img src="../../img/commands/automod/antimemberuon.png" alt="antimember update limit" class="w-full">
+    <figcaption class="caption">antimember update limit</figcaption>
 </figure>
 <figure class="content-center">
     <img src="../../img/commands/automod/antimemberupdateoff.png" alt="antimember update off" class="w-full">
@@ -607,9 +825,25 @@ For example on [<strong>-antikick 1</strong>] bot will get triggered on 1 kick b
     </h3>
 </doc-anchor-target>
 <p>Adding role in antipublic role list will restrict users from tagging that role in guild. for example [<strong>@faimly</strong>] role if added then users trying to tag that role will trigger the bot.</p>
-<doc-anchor-target id="example-12">
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="compact">
+<thead>
+<tr>
+<th>Aliases</th>
+<th>Usage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>antipr add/remove</td>
+<td>antipublicrole &lt;add/remove&gt; @role</td>
+</tr>
+</tbody>
+</table>
+</div>
+<doc-anchor-target id="example-13">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#example-12">#</doc-anchor-trigger>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#example-13">#</doc-anchor-trigger>
         <span>Example</span>
     </h3>
 </doc-anchor-target>
@@ -640,18 +874,34 @@ For example on [<strong>-antikick 1</strong>] bot will get triggered on 1 kick b
     </h3>
 </doc-anchor-target>
 <p>Sets limit on how many role creations will trigger the bot. For example [<strong>-antirolec 2</strong>] bot will get triggered when someone creates second role in guild and bot will take action against that user.</p>
-<doc-anchor-target id="example-13">
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="compact">
+<thead>
+<tr>
+<th>Aliases</th>
+<th>Usage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>antirc</td>
+<td>antirolecreate &lt;1/2/3/4/...&gt;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<doc-anchor-target id="example-14">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#example-13">#</doc-anchor-trigger>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#example-14">#</doc-anchor-trigger>
         <span>Example</span>
     </h3>
 </doc-anchor-target>
 <p><figure class="content-center">
-    <img src="../../img/commands/automod/antirolec.png" alt="antirole create limit" class="w-full">
+    <img src="../../img/commands/automod/antirolecon.png" alt="antirole create limit" class="w-full">
     <figcaption class="caption">antirole create limit</figcaption>
 </figure>
 <figure class="content-center">
-    <img src="../../img/commands/automod/antirolecoff.png" alt="antirole create off" class="w-full">
+    <img src="../../img/commands/automod/antirolecofff.png" alt="antirole create off" class="w-full">
     <figcaption class="caption">antirole create off</figcaption>
 </figure>
 </p>
@@ -669,18 +919,34 @@ For example on [<strong>-antikick 1</strong>] bot will get triggered on 1 kick b
     </h3>
 </doc-anchor-target>
 <p>sets limit on how many role deletions will trigger the bot. For example [<strong>-antiroled 2</strong>] bot will get triggered when someone deletes second role in guild and bot will take action against that user.</p>
-<doc-anchor-target id="example-14">
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="compact">
+<thead>
+<tr>
+<th>Aliases</th>
+<th>Usage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>antird</td>
+<td>antiroledelete &lt;1/2/3/4/...&gt;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<doc-anchor-target id="example-15">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#example-14">#</doc-anchor-trigger>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#example-15">#</doc-anchor-trigger>
         <span>Example</span>
     </h3>
 </doc-anchor-target>
 <p><figure class="content-center">
-    <img src="../../img/commands/automod/antiroled.png" alt="antirole delete limit" class="w-full">
+    <img src="../../img/commands/automod/antiroledon.png" alt="antirole delete limit" class="w-full">
     <figcaption class="caption">antirole delete limit</figcaption>
 </figure>
 <figure class="content-center">
-    <img src="../../img/commands/automod/antiroledoff.png" alt="antirole delete off" class="w-full">
+    <img src="../../img/commands/automod/antiroledofff.png" alt="antirole delete off" class="w-full">
     <figcaption class="caption">antirole delete off</figcaption>
 </figure>
 </p>
@@ -698,18 +964,34 @@ For example on [<strong>-antikick 1</strong>] bot will get triggered on 1 kick b
     </h3>
 </doc-anchor-target>
 <p>Enabling this restrict users from updating role permissions in guild.</p>
-<doc-anchor-target id="example-15">
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="compact">
+<thead>
+<tr>
+<th>Aliases</th>
+<th>Usage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>antiru</td>
+<td>antiroleupdate &lt;1/2/3/4/...&gt;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<doc-anchor-target id="example-16">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#example-15">#</doc-anchor-trigger>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#example-16">#</doc-anchor-trigger>
         <span>Example</span>
     </h3>
 </doc-anchor-target>
 <p><figure class="content-center">
-    <img src="../../img/commands/automod/antiroleuon.png" alt="antirole update on" class="w-full">
-    <figcaption class="caption">antirole update on</figcaption>
+    <img src="../../img/commands/automod/antiruon.png" alt="antirole update limit" class="w-full">
+    <figcaption class="caption">antirole update limit</figcaption>
 </figure>
 <figure class="content-center">
-    <img src="../../img/commands/automod/antiroleuoff.png" alt="antirole update off" class="w-full">
+    <img src="../../img/commands/automod/antiroleuofff.png" alt="antirole update off" class="w-full">
     <figcaption class="caption">antirole update off</figcaption>
 </figure>
 </p>
@@ -727,9 +1009,9 @@ For example on [<strong>-antikick 1</strong>] bot will get triggered on 1 kick b
     </h3>
 </doc-anchor-target>
 <p>Enabling this will restrict users from selfbotting in guild.</p>
-<doc-anchor-target id="example-16">
+<doc-anchor-target id="example-17">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#example-16">#</doc-anchor-trigger>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#example-17">#</doc-anchor-trigger>
         <span>Example</span>
     </h3>
 </doc-anchor-target>
@@ -756,9 +1038,9 @@ For example on [<strong>-antikick 1</strong>] bot will get triggered on 1 kick b
     </h3>
 </doc-anchor-target>
 <p>Enabling this will restrict users from adding unverified bots in guild.</p>
-<doc-anchor-target id="example-17">
+<doc-anchor-target id="example-18">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#example-17">#</doc-anchor-trigger>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#example-18">#</doc-anchor-trigger>
         <span>Example</span>
     </h3>
 </doc-anchor-target>
@@ -785,18 +1067,18 @@ For example on [<strong>-antikick 1</strong>] bot will get triggered on 1 kick b
     </h3>
 </doc-anchor-target>
 <p>Enabling this will restrict users from creating webhooks in guild.</p>
-<doc-anchor-target id="example-18">
+<doc-anchor-target id="example-19">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#example-18">#</doc-anchor-trigger>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#example-19">#</doc-anchor-trigger>
         <span>Example</span>
     </h3>
 </doc-anchor-target>
 <p><figure class="content-center">
-    <img src="../../img/commands/automod/antiwebon.png" alt="antiwebhook on" class="w-full">
-    <figcaption class="caption">antiwebhook on</figcaption>
+    <img src="../../img/commands/automod/antiwebhookon.png" alt="antiwebhook limit" class="w-full">
+    <figcaption class="caption">antiwebhook limit</figcaption>
 </figure>
 <figure class="content-center">
-    <img src="../../img/commands/automod/antiweboff.png" alt="antiwebhook off" class="w-full">
+    <img src="../../img/commands/automod/antiwebhookoff.png" alt="antiwebhook off" class="w-full">
     <figcaption class="caption">antiwebhook off</figcaption>
 </figure>
 </p>
