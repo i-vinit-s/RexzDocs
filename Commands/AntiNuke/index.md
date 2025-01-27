@@ -46,6 +46,7 @@ Anti-Nuke refers to a set of protective measures designed to safeguard a Discord
 ### What is AntiBan?
 Sets limit on how many bans bot will get triggered and take action on the user who used ban.
 For example on [**-antiban 1**] bot will get triggered on 1 ban by anyone and bot will take action against that user.
+
 {.compact}
 Aliases   | Usage
 ---       | ---
