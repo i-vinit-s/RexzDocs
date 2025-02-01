@@ -1,6 +1,6 @@
 {
   "version": "3.6.0",
-  "created": "2025-01-22T19:13:20Z",
+  "created": "2025-02-01T16:04:50Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -458,10 +458,16 @@
       "path": "img\\commands\\automod\\antichannelc.png"
     },
     {
+      "path": "img\\commands\\automod\\antichannelca.png"
+    },
+    {
       "path": "img\\commands\\automod\\antichannelcoff.png"
     },
     {
       "path": "img\\commands\\automod\\antichanneld.png"
+    },
+    {
+      "path": "img\\commands\\automod\\antichannelda.png"
     },
     {
       "path": "img\\commands\\automod\\antichanneldoff.png"
@@ -470,13 +476,29 @@
       "path": "img\\commands\\automod\\antichannelu.png"
     },
     {
+      "path": "img\\commands\\automod\\antichannelua.png"
+    },
+    {
       "path": "img\\commands\\automod\\antichanneluoff.png"
     },
     {
       "path": "img\\commands\\automod\\anticoff.png"
     },
     {
-      "path": "img\\commands\\automod\\antiemoji.png"
+      "path": "img\\commands\\automod\\antiemoji.png",
+      "old": true
+    },
+    {
+      "path": "img\\commands\\automod\\antiemojicoff.png"
+    },
+    {
+      "path": "img\\commands\\automod\\antiemojicon.png"
+    },
+    {
+      "path": "img\\commands\\automod\\antiemojidoff.png"
+    },
+    {
+      "path": "img\\commands\\automod\\antiemojidon.png"
     },
     {
       "path": "img\\commands\\automod\\antiemojioff.png"
@@ -485,10 +507,18 @@
       "path": "img\\commands\\automod\\antiemojion.png"
     },
     {
-      "path": "img\\commands\\automod\\antiemojiuoff.png"
+      "path": "img\\commands\\automod\\antiemojiuoff.png",
+      "old": true
     },
     {
-      "path": "img\\commands\\automod\\antiemojiuon.png"
+      "path": "img\\commands\\automod\\antiemojiuon.png",
+      "old": true
+    },
+    {
+      "path": "img\\commands\\automod\\antiemojiupoff.png"
+    },
+    {
+      "path": "img\\commands\\automod\\antiemojiupon.png"
     },
     {
       "path": "img\\commands\\automod\\antieveryoneoff.png"
@@ -497,10 +527,18 @@
       "path": "img\\commands\\automod\\antieveryoneon.png"
     },
     {
-      "path": "img\\commands\\automod\\antiguilduoff.png"
+      "path": "img\\commands\\automod\\antiguilduoff.png",
+      "old": true
     },
     {
-      "path": "img\\commands\\automod\\antiguilduon.png"
+      "path": "img\\commands\\automod\\antiguilduon.png",
+      "old": true
+    },
+    {
+      "path": "img\\commands\\automod\\antiguoff.png"
+    },
+    {
+      "path": "img\\commands\\automod\\antiguon.png"
     },
     {
       "path": "img\\commands\\automod\\antikick.png"
@@ -521,10 +559,14 @@
       "path": "img\\commands\\automod\\antilinkauto.png"
     },
     {
+      "path": "img\\commands\\automod\\antimemberuon.png"
+    },
+    {
       "path": "img\\commands\\automod\\antimemberupdateoff.png"
     },
     {
-      "path": "img\\commands\\automod\\antimemberupdateon.png"
+      "path": "img\\commands\\automod\\antimemberupdateon.png",
+      "old": true
     },
     {
       "path": "img\\commands\\automod\\antipublic.png"
@@ -536,22 +578,46 @@
       "path": "img\\commands\\automod\\antipublicoff.png"
     },
     {
-      "path": "img\\commands\\automod\\antirolec.png"
+      "path": "img\\commands\\automod\\antirolec.png",
+      "old": true
     },
     {
-      "path": "img\\commands\\automod\\antirolecoff.png"
+      "path": "img\\commands\\automod\\antirolecoff.png",
+      "old": true
     },
     {
-      "path": "img\\commands\\automod\\antiroled.png"
+      "path": "img\\commands\\automod\\antirolecofff.png"
     },
     {
-      "path": "img\\commands\\automod\\antiroledoff.png"
+      "path": "img\\commands\\automod\\antirolecon.png"
     },
     {
-      "path": "img\\commands\\automod\\antiroleuoff.png"
+      "path": "img\\commands\\automod\\antiroled.png",
+      "old": true
     },
     {
-      "path": "img\\commands\\automod\\antiroleuon.png"
+      "path": "img\\commands\\automod\\antiroledoff.png",
+      "old": true
+    },
+    {
+      "path": "img\\commands\\automod\\antiroledofff.png"
+    },
+    {
+      "path": "img\\commands\\automod\\antiroledon.png"
+    },
+    {
+      "path": "img\\commands\\automod\\antiroleuoff.png",
+      "old": true
+    },
+    {
+      "path": "img\\commands\\automod\\antiroleuofff.png"
+    },
+    {
+      "path": "img\\commands\\automod\\antiroleuon.png",
+      "old": true
+    },
+    {
+      "path": "img\\commands\\automod\\antiruon.png"
     },
     {
       "path": "img\\commands\\automod\\antiselfbotoff.png"
@@ -566,10 +632,18 @@
       "path": "img\\commands\\automod\\antiunverion.png"
     },
     {
-      "path": "img\\commands\\automod\\antiweboff.png"
+      "path": "img\\commands\\automod\\antiwebhookoff.png"
     },
     {
-      "path": "img\\commands\\automod\\antiwebon.png"
+      "path": "img\\commands\\automod\\antiwebhookon.png"
+    },
+    {
+      "path": "img\\commands\\automod\\antiweboff.png",
+      "old": true
+    },
+    {
+      "path": "img\\commands\\automod\\antiwebon.png",
+      "old": true
     },
     {
       "path": "img\\commands\\automod\\autmodwl.png"

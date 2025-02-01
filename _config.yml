@@ -1,0 +1,39 @@
+# site:
+#   title: "RexZ Docs | Ultimate AntiNuke & Security Bot for Discord"
+#   description: "Explore the official documentation for RexZ, the advanced Anti-Nuke, Security, and Moderation bot for Discord. Protect your server from raids, automate moderation, and enhance security."
+#   keywords: "rexz, antinuke, security, discordbot, discord"
+#   author: "BxBY"
+#   sitemap: true
+
+site:
+  openGraph:
+    title: "RexZ Docs | Ultimate AntiNuke & Security Bot for Discord"
+    description: "Explore the official documentation for RexZ, the advanced Anti-Nuke, Security, and Moderation bot for Discord. Protect your server from raids, automate moderation, and enhance security."
+    image: "/img/favicon.png"
+    type: "website"
+
+site:
+  name: "RexZ Docs | Ultimate AntiNuke & Security Bot for Discord"
+  description: "Explore the official documentation for RexZ, the advanced Anti-Nuke, Security, and Moderation bot for Discord. Protect your server from raids, automate moderation, and enhance security."
+  keywords: "rexz, antinuke, security, discordbot, discord"
+  author: "BxBY"
+  base: "/"
+  permalink: "/:slug/"
+  sitemap: true
+  googleAnalytics: "G-XXXXXXXXXX"
+
+  # Open Graph (OG) for social media preview
+  openGraph:
+    title: "RexZ Docs | Ultimate AntiNuke & Security Bot for Discord"
+    description: "Explore the official documentation for RexZ, the advanced Anti-Nuke, Security, and Moderation bot for Discord. Protect your server from raids, automate moderation, and enhance security."
+    image: "/img/favicon.png"
+    type: "website"
+
+# Navigation settings (Optional)
+navigation:
+  - title: Home
+    link: /index.md
+  - title: Privacy Policy
+    link: /privacypolicy.md
+  - title: Setup
+    link: /setup.md
