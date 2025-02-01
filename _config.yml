@@ -7,6 +7,19 @@ site:
   permalink: "/:slug/"
   sitemap: true
   googleAnalytics: "G-V55PGEYHBX"
+  html:
+    head: |
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-V55PGEYHBX"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-V55PGEYHBX');
+      </script>
+    footer: |
+      <script>
+        console.log("Custom footer script loaded!");
+      </script>
 
   # Open Graph (OG) for social media preview
   openGraph:
