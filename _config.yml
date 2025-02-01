@@ -1,17 +1,3 @@
-# site:
-#   title: "RexZ Docs | Ultimate AntiNuke & Security Bot for Discord"
-#   description: "Explore the official documentation for RexZ, the advanced Anti-Nuke, Security, and Moderation bot for Discord. Protect your server from raids, automate moderation, and enhance security."
-#   keywords: "rexz, antinuke, security, discordbot, discord"
-#   author: "BxBY"
-#   sitemap: true
-
-site:
-  openGraph:
-    title: "RexZ Docs | Ultimate AntiNuke & Security Bot for Discord"
-    description: "Explore the official documentation for RexZ, the advanced Anti-Nuke, Security, and Moderation bot for Discord. Protect your server from raids, automate moderation, and enhance security."
-    image: "/img/favicon.png"
-    type: "website"
-
 site:
   name: "RexZ Docs | Ultimate AntiNuke & Security Bot for Discord"
   description: "Explore the official documentation for RexZ, the advanced Anti-Nuke, Security, and Moderation bot for Discord. Protect your server from raids, automate moderation, and enhance security."
@@ -20,7 +6,7 @@ site:
   base: "/"
   permalink: "/:slug/"
   sitemap: true
-  googleAnalytics: "G-XXXXXXXXXX"
+  googleAnalytics: "G-V55PGEYHBX"
 
   # Open Graph (OG) for social media preview
   openGraph:
