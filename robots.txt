@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
-Sitemap: https://docs.rexzbot.xyz/sitemap.xml.gz
+Sitemap: https://docs.rexzbot.xyz/sitemap.xml
