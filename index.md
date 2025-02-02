@@ -7,9 +7,6 @@ description: "Explore the official documentation for RexZ, the advanced Anti-Nuk
 keywords: "Rexz, Rexzbot, DiscordBot, AntiNuke, Moderation, Security"
 ---
 
-## RexZ - The Best AntiNuke & Security Bot
-
-
 Welcome to RexZ, your advanced security and anti-nuke bot for Discord servers! RexZ is your ultimate line of defense against malicious attacks aimed at disrupting your server's peace and integrity.
 
 RexZ is meticulously designed to safeguard your community from a variety of threats, including nuking attempts, spam attacks, raiding, and more. With its sophisticated algorithms and robust features, RexZ acts as a vigilant guardian, constantly monitoring your server's activity and swiftly responding to any suspicious behavior.
