@@ -2,6 +2,9 @@
 label: Home
 order: 1000
 icon: home
+title: "RexZ - The Best AntiNuke & Security Bot"
+description: "Explore the official documentation for RexZ, the advanced Anti-Nuke, Security, and Moderation bot for Discord. Protect your server from raids, automate moderation, and enhance security."
+keywords: "Rexz, Rexzbot, DiscordBot, AntiNuke, Moderation, Security"
 ---
 
 ## RexZ - The Best AntiNuke & Security Bot

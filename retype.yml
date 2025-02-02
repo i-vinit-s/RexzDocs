@@ -12,6 +12,16 @@ branding:
       text: "#fff"
       background: "#5200A7"
 favicon: ./img/favicon.png
+integrations:
+  googleAnalytics:
+    id: "G-V55PGEYHBX"
+  googleTagManager:
+    id: "GTM-WFLSNJD2"
+  gravatar:
+    enabled: true
+    default: mp
+  plausible:
+    domain: docs.rexzbot.com  # Your plausible domain(s)
 meta:
   title: " | RexZ Docs"
 search:
@@ -21,6 +31,8 @@ search:
 links:
   - text: Home
     link: /index.md
+  - text: Privacy Policy
+    link: /privacypolicy.md
   - text: Invite
     link: https://discord.com/api/oauth2/authorize?client_id=856741116912861276&permissions=8&scope=bot%20applications.commands
   - text: Support
