@@ -1,10 +1,15 @@
 ---
-label: What is RexZ?
-order: A
-icon: dot-fill
-author:
-  name: BxBY
-  avatar: ../img/bxby.jpg
+label: What is RexZ? # Label - shows at navigation tab
+order: A # Page order in folder
+icon: dot-fill # Page icon - shows at navigation tab
+author: # Who written this page
+  name: BxBY # Author name
+  avatar: ../img/bxby.jpg # Author avatar
+meta: # Meta tag - works like <meta>
+  title: "What is RexZ?" # Page title (this will override default meta.title set in config)
+description: "RexZ is a powerful Anti-Nuke, Security, and Moderation bot for Discord. Protect your server from threats, automate moderation, and enhance security with real-time protection and advanced features. Keep your community safe with RexZ!" # Page description
+category: introduction # Page category (might be multiple categories - [category1, category2])
+route: "/whstisrexz/" # Change default route set by retype
 ---
 
 ## What Is RexZ?

@@ -1,11 +1,18 @@
 ---
-label: Home
-order: 1000
-icon: home
-title: "RexZ - The Best AntiNuke & Security Bot"
-description: "Explore the official documentation for RexZ, the advanced Anti-Nuke, Security, and Moderation bot for Discord. Protect your server from raids, automate moderation, and enhance security."
-keywords: "Rexz, Rexzbot, DiscordBot, AntiNuke, Moderation, Security"
+label: Home # Label - shows at navigation tab
+order: 1000 # Page order in folder
+icon: home # Page icon - shows at navigation tab
+author: # Who written this page
+  name: BxBY # Author name
+  avatar: ./img/bxby.jpg # Author avatar
+meta: # Meta tag - works like <meta>
+  title: "RexZ - The Best AntiNuke & Security Bot" # Page title (this will override default meta.title set in config)
+description: "Explore the official documentation for RexZ, the advanced Anti-Nuke, Security, and Moderation bot for Discord. Protect your server from raids, automate moderation, and enhance security." # Page description
+category: [home, introduction] # Page category (might be multiple categories - [category1, category2])
+route: "/" # Change default route set by retype
 ---
+
+# The Best AntiNuke & Security Bot
 
 Welcome to RexZ, your advanced security and anti-nuke bot for Discord servers! RexZ is your ultimate line of defense against malicious attacks aimed at disrupting your server's peace and integrity.
 
@@ -21,7 +28,7 @@ Join countless Discord servers worldwide that trust RexZ to keep their communiti
 
 We have pages and pages of informations about the various functions, commands and settings, all organized into different categories.(Given Below):
 - The [!button size="xs" text="Introduction"](./Introduction/WhatIsRexz.md) category informs you about what RexZ is, including a full description of its features.
-- The [!button size="xs" text="Introduction"](./setup.md) page displays easy and fast setup method.
+- The [!button size="xs" text="Setup"](./setup.md) page displays easy and fast setup method.
 - The [!button size="xs" text="Commands"](./Commands/ArtificialIntelligence/) category covers all RexZ's commands.
 - The [!button size="xs" text="Privacy & Policy"](./privacypolicy.md) page shows up our privacy policy in detailed view.
 

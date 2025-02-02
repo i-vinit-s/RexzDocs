@@ -1,13 +1,18 @@
 ---
-label: Configuration
-order: 850
-icon: gear
-author:
-  name: BxBY
-  avatar: ./img/bxby.jpg
+label: Configuration # Label - shows at navigation tab
+order: 850 # Page order in folder
+icon: gear # Page icon - shows at navigation tab
+author: # Who written this page
+  name: BxBY # Author name
+  avatar: ./img/bxby.jpg # Author avatar
+meta: # Meta tag - works like <meta>
+  title: "Custom Configuration" # Page title (this will override default meta.title set in config)
+description: "Customize RexZ to fit your server's needs with our easy-to-use configuration settings. Adjust security levels, moderation tools, and automation features for optimal protection and control." # Page description
+category: [setup, config] # Page category (might be multiple categories - [category1, category2])
+route: "/config/" # Change default route set by retype
 ---
 
---![](./img/REXZCONFIG.png)--
+The configuration allows you to customize RexZ to suit your server's security and moderation needs. Adjust settings for Anti-Nuke protection, moderation commands, security alerts, and more. With easy-to-use controls, you can fine-tune RexZ to provide the perfect balance of automation and protection, ensuring a safe and well-managed community.
 
 ## Prefix
 

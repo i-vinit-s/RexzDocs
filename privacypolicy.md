@@ -1,15 +1,18 @@
 ---
-label: Privacy & Policy
-order: 200
-icon: lock
-author:
-  name: BxBY
-  avatar: ./img/bxby.jpg
+label: Privacy & Policy # Label - shows at navigation tab
+order: 200 # Page order in folder
+icon: lock # Page icon - shows at navigation tab
+author: # Who written this page
+  - name: BxBY # Author name
+    avatar: ./img/bxby.jpg # Author avatar
+meta: # Meta tag - works like <meta>
+  title: "Privacy & Policy" # Page title (this will override default meta.title set in config)
+description: "Learn how RexZ handles your data with transparency and security. Read our Privacy Policy to understand data collection, usage, and protection measures to ensure your privacy and safety." # Page description
+category: [information] # Page category (might be multiple categories - [category1, category2])
+route: "/privacypolicy/" # Change default route set by retype
 ---
 
 ## Privacy & Policy
-
---![](./img/REXZPP.png)--
 
 By using our Site/Bot, you agree that you have read and agreed to this policy.
 

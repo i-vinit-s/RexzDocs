@@ -1,9 +1,16 @@
 ---
-label: Ticket System
-icon: comment
-author:
-  name: BxBY
-  avatar: ../../img/bxby.jpg
+label: Ticket System # Label - shows at navigation tab
+order: 0 # Page order in folder
+icon: comment # Page icon - shows at navigation tab
+author: # Who written this page
+  - name: BxBY # Author name
+    avatar: ../../img/bxby.jpg # Author avatar
+meta: # Meta tag - works like <meta>
+  title: "Ticket System" # Page title (this will override default meta.title set in config)
+description: "Streamline support with RexZ's Ticket System. Manage and resolve user issues efficiently by creating private ticket channels for seamless communication and problem-solving within your server." # Page description
+category: [setup, config, commands] # Page category (might be multiple categories - [category1, category2])
+tags: [ticket] # Tags to find page easily with search
+route: "/ticket-system/" # Change default route set by retype
 ---
 
 ## What is Ticket System?

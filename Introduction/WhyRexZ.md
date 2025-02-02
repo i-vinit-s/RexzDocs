@@ -1,11 +1,20 @@
 ---
-label: Why Choose RexZ?
-icon: dot-fill
-order: B
-author:
-  name: BxBY
-  avatar: ../img/bxby.jpg
+label: Why RexZ? # Label - shows at navigation tab
+order: B # Page order in folder
+icon: dot-fill # Page icon - shows at navigation tab
+author: # Who written this page
+  name: BxBY # Author name
+  avatar: ../img/bxby.jpg # Author avatar
+meta: # Meta tag - works like <meta>
+  title: "Why RexZ?" # Page title (this will override default meta.title set in config)
+description: "Protect your Discord server with RexZ – an advanced Anti-Nuke, Security, and Moderation bot. Ensure server safety with real-time threat detection, AI chatbot, and customizable security settings. Keep your community secure with RexZ today!" # Page description
+category: [introduction] # Page category (might be multiple categories - [category1, category2])
+route: "/whyrexz/" # Change default route set by retype
 ---
+
+## Why RexZ?
+
+RexZ is designed to provide top-level security, moderation, and automation for your Discord server. With powerful Anti-Nuke protection, advanced moderation tools, and real-time security alerts, RexZ helps keep your community safe from threats. Whether you're managing a small group or a large server, RexZ ensures smooth operation with customizable settings, an AI chatbot, and 24/7 reliability. Choose RexZ for a secure and well-managed Discord experience!
 
 --![](../img/WHYREXZ.png)--
 

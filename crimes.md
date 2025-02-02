@@ -1,12 +1,17 @@
 ---
-label: What are Crimes?
-order: 750
-icon: checklist
-author:
-  - name: BxBY
-    avatar: ./img/bxby.jpg
+label: What are Crimes? # Label - shows at navigation tab
+order: 750 # Page order in folder
+icon: checklist # Page icon - shows at navigation tab
+author: # Who written this page
+  - name: BxBY # Author name
+    avatar: ./img/bxby.jpg # Author avatar
   - name: Tom
     avatar: ./img/Tom.png
+meta: # Meta tag - works like <meta>
+  title: "What are Crimes?" # Page title (this will override default meta.title set in config)
+description: "Monitor and manage server violations with RexZ's crime tracking system. Keep track of rule-breaking activities, enforce punishments, and maintain a safe Discord community effortlessly." # Page description
+category: [information, introduction] # Page category (might be multiple categories - [category1, category2])
+route: "/crimes/" # Change default route set by retype
 ---
 Certainly!
 

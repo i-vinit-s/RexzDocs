@@ -1,12 +1,42 @@
 {
   "version": "3.6.0",
-  "created": "2025-02-02T12:05:22Z",
+  "created": "2025-02-02T14:07:19Z",
   "files": [
     {
       "path": ".nojekyll"
     },
     {
       "path": "404.html"
+    },
+    {
+      "path": "ai\\index.html"
+    },
+    {
+      "path": "antinuke\\index.html"
+    },
+    {
+      "path": "automoderation\\index.html"
+    },
+    {
+      "path": "categories\\commands\\index.html"
+    },
+    {
+      "path": "categories\\config\\index.html"
+    },
+    {
+      "path": "categories\\home\\index.html"
+    },
+    {
+      "path": "categories\\index.html"
+    },
+    {
+      "path": "categories\\information\\index.html"
+    },
+    {
+      "path": "categories\\introduction\\index.html"
+    },
+    {
+      "path": "categories\\setup\\index.html"
     },
     {
       "path": "CNAME"
@@ -88,14 +118,16 @@
       "old": true
     },
     {
-      "path": "commands\\antinuke\\index.html"
+      "path": "commands\\antinuke\\index.html",
+      "old": true
     },
     {
       "path": "commands\\artificialintelligence\\ask\\index.html",
       "old": true
     },
     {
-      "path": "commands\\artificialintelligence\\index.html"
+      "path": "commands\\artificialintelligence\\index.html",
+      "old": true
     },
     {
       "path": "commands\\automod\\antiban\\index.html",
@@ -202,7 +234,8 @@
       "old": true
     },
     {
-      "path": "commands\\automoderation\\index.html"
+      "path": "commands\\automoderation\\index.html",
+      "old": true
     },
     {
       "path": "commands\\fun\\addemoji\\index.html"
@@ -352,7 +385,8 @@
       "path": "commands\\security\\threatmode\\index.html"
     },
     {
-      "path": "commands\\ticket-system\\index.html"
+      "path": "commands\\ticket-system\\index.html",
+      "old": true
     },
     {
       "path": "commands\\ticket\\ticketadd\\index.html",
@@ -692,10 +726,12 @@
       "path": "img\\rexz.png"
     },
     {
-      "path": "img\\rexzconfig.png"
+      "path": "img\\rexzconfig.png",
+      "old": true
     },
     {
-      "path": "img\\rexzpp.png"
+      "path": "img\\rexzpp.png",
+      "old": true
     },
     {
       "path": "img\\tom.png"
@@ -710,10 +746,12 @@
       "path": "index.html"
     },
     {
-      "path": "introduction\\whatisrexz\\index.html"
+      "path": "introduction\\whatisrexz\\index.html",
+      "old": true
     },
     {
-      "path": "introduction\\whyrexz\\index.html"
+      "path": "introduction\\whyrexz\\index.html",
+      "old": true
     },
     {
       "path": "privacypolicy\\index.html"
@@ -786,10 +824,15 @@
       "path": "tags\\antinuke\\index.html"
     },
     {
-      "path": "tags\\artificial-intelligence\\index.html"
+      "path": "tags\\artificial-intelligence\\index.html",
+      "old": true
     },
     {
-      "path": "tags\\ask\\index.html"
+      "path": "tags\\artificialintelligence\\index.html"
+    },
+    {
+      "path": "tags\\ask\\index.html",
+      "old": true
     },
     {
       "path": "tags\\automod\\index.html"
@@ -909,8 +952,7 @@
       "path": "tags\\sticker\\index.html"
     },
     {
-      "path": "tags\\ticket\\index.html",
-      "old": true
+      "path": "tags\\ticket\\index.html"
     },
     {
       "path": "tags\\trustables\\index.html"
@@ -926,6 +968,15 @@
     },
     {
       "path": "tags\\userscount\\index.html"
+    },
+    {
+      "path": "ticket-system\\index.html"
+    },
+    {
+      "path": "whstisrexz\\index.html"
+    },
+    {
+      "path": "whyrexz\\index.html"
     }
   ]
 }

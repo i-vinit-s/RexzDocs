@@ -1,14 +1,20 @@
 ---
-icon: shield
-label: Anti Nuke
-order: 100
-author:
-  - name: BxBY
-    avatar: ../../img/bxby.jpg
+label: Anti Nuke # Label - shows at navigation tab
+order: 100 # Page order in folder
+icon: shield # Page icon - shows at navigation tab
+author: # Who written this page
+  - name: BxBY # Author name
+    avatar: ../../img/bxby.jpg # Author avatar
   - name: Tom
     avatar: ../../img/Tom.png
-tags: [antinuke]
+meta: # Meta tag - works like <meta>
+  title: "Anti Nuke" # Page title (this will override default meta.title set in config)
+description: "Protect your Discord server from malicious actions with RexZ’s Anti-Nuke feature. Automatically detect and prevent server raids, nukes, and unauthorized actions to keep your community secure." # Page description
+category: [setup, config, commands] # Page category (might be multiple categories - [category1, category2])
+tags: [antinuke, commands] # Tags to find page easily with search
+route: "/antinuke/" # Change default route set by retype
 ---
+
 # Anti Nuke
 RexZ provides a powerful and reliable Anti-Nuke system to ensure the safety and security of your Discord server. This feature is designed to prevent malicious activities and unauthorized changes that could harm your community.
 # What is Anti-Nuke?

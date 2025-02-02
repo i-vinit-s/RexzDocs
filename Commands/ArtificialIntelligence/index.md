@@ -1,11 +1,16 @@
 ---
-icon: apps
-label: Artificial Intelligence
-order: 100
-author:
-  name: BxBY
-  avatar: ../../img/bxby.jpg
-tags: [artificial intelligence, ask, ai]
+label: Artificial Intelligence # Label - shows at navigation tab
+order: 100 # Page order in folder
+icon: apps # Page icon - shows at navigation tab
+author: # Who written this page
+  - name: BxBY # Author name
+    avatar: ../../img/bxby.jpg # Author avatar
+meta: # Meta tag - works like <meta>
+  title: "RexZ AI" # Page title (this will override default meta.title set in config)
+description: "Engage with RexZ’s AI chatbot for intelligent conversations, assistance, and interactive fun. Enhance your server’s experience with a smart and responsive AI that’s always ready to help!" # Page description
+category: [information, commands] # Page category (might be multiple categories - [category1, category2])
+tags: [ai, artificialintelligence, commands] # Tags to find page easily with search
+route: "/ai/" # Change default route set by retype
 ---
 
 # RexZ AI
@@ -21,9 +26,9 @@ Customizable Behavior: Server administrators can fine-tune the chatbot’s behav
 To activate the AI chatbot, use the following command:
 !!!primary Syntax
 `-ask [prompt]`
-!!!secondary Alias
-`ai`
-
-!!!primary Example
-![](/img/Commands/AI/ask.png)
 !!!
+!!!primary Alias
+`ai`
+!!!
+### Example
+--![](/img/Commands/AI/ask.png)--

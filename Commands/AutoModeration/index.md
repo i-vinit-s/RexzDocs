@@ -1,13 +1,18 @@
 ---
-icon: copilot
-label: Auto Moderation
-order: 100
-author:
-  - name: BxBY
-    avatar: ../../img/bxby.jpg
+label: Auto Moderation # Label - shows at navigation tab
+order: 100 # Page order in folder
+icon: copilot # Page icon - shows at navigation tab
+author: # Who written this page
+  - name: BxBY # Author name
+    avatar: ../../img/bxby.jpg # Author avatar
   - name: Tom
     avatar: ../../img/Tom.png
-tags: [automoderation, automod]
+meta: # Meta tag - works like <meta>
+  title: "Auto Moderation" # Page title (this will override default meta.title set in config)
+description: "Automate moderation with RexZ's AutoMod feature. Enforce rules, filter inappropriate content, and maintain a safe community environment effortlessly with customizable moderation settings." # Page description
+category: [setup, config, commands] # Page category (might be multiple categories - [category1, category2])
+tags: [automoderation, automod, security, commands] # Tags to find page easily with search
+route: "/automoderation/" # Change default route set by retype
 ---
 
 # Auto Moderation
