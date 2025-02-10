@@ -36,7 +36,3 @@ We have pages and pages of informations about the various functions, commands an
 [:icon-link-external: Invite Bot](https://discord.com/api/oauth2/authorize?client_id=856741116912861276&permissions=8&scope=bot%20applications.commands) <br>
 [:icon-link-external: Discord Support Server](https://discord.gg/YcnBaSG8AF)
 !!!
-<!-- 
-## Commands
-
-[![](./img/REXZ-COMMANDS.png)](./Commands/ArtificialIntelligence/Ask.md) -->
