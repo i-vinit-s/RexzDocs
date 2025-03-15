@@ -22,7 +22,7 @@ Enables users to ask questions directly to the AI chatbot for quick responses.
 {.compact}  
 Aliases  | Usage  
 ---      | ---  
-ai       | Get an answer using RexZ AI  
+ai       | ask [prompt] 
 
 ### Example  
 --![](../../img/Commands/AI/ask.png)--  
@@ -30,7 +30,7 @@ ai       | Get an answer using RexZ AI
 ---
 
 ## Gpt Command  
-Ask OpenAI chatbot a question.  
+Ask chatbot a question. (using fine-tune model of gemma)  
 
 ### Description  
 Allows users to interact with the AI-powered chatbot integrated into RexZ.  
@@ -38,7 +38,17 @@ Allows users to interact with the AI-powered chatbot integrated into RexZ.
 {.compact}  
 Aliases  | Usage  
 ---      | ---  
-rexz     | Get an answer using RexZ AI  
+rexz     | gpt [prompt]
 
-### Example  
---![](../../img/Commands/AI/gpt.png)--
+---
+
+## Imagine Command  
+Generate images using AI. 
+
+### Description  
+Allows users to generate images with the AI. 
+
+{.compact}  
+Aliases  | Usage  
+---      | ---  
+x     | imagine [prompt]
