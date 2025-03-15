@@ -36,7 +36,7 @@ Auto moderation in the RexZ Discord bot refers to automated tools and systems th
 - Anti NSFW
 - Anti Spam
 - Anti Word
-- Anti Aalgo
+- Anti Zalgo
 - Discord AutoMod
 - Special Channel
 

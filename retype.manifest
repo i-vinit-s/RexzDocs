@@ -1,6 +1,6 @@
 {
   "version": "3.6.0",
-  "created": "2025-02-02T14:07:19Z",
+  "created": "2025-03-15T10:14:09Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -9,10 +9,16 @@
       "path": "404.html"
     },
     {
+      "path": "administration\\index.html"
+    },
+    {
       "path": "ai\\index.html"
     },
     {
       "path": "antinuke\\index.html"
+    },
+    {
+      "path": "auth\\index.html"
     },
     {
       "path": "automoderation\\index.html"
@@ -34,6 +40,9 @@
     },
     {
       "path": "categories\\introduction\\index.html"
+    },
+    {
+      "path": "categories\\security\\index.html"
     },
     {
       "path": "categories\\setup\\index.html"
@@ -361,22 +370,28 @@
       "path": "commands\\moderation\\unban\\index.html"
     },
     {
-      "path": "commands\\security\\anti\\index.html"
+      "path": "commands\\security\\anti\\index.html",
+      "old": true
     },
     {
-      "path": "commands\\security\\auto\\index.html"
+      "path": "commands\\security\\auto\\index.html",
+      "old": true
     },
     {
-      "path": "commands\\security\\config\\index.html"
+      "path": "commands\\security\\config\\index.html",
+      "old": true
     },
     {
-      "path": "commands\\security\\logs\\index.html"
+      "path": "commands\\security\\logs\\index.html",
+      "old": true
     },
     {
-      "path": "commands\\security\\nightmode\\index.html"
+      "path": "commands\\security\\nightmode\\index.html",
+      "old": true
     },
     {
-      "path": "commands\\security\\punishment\\index.html"
+      "path": "commands\\security\\punishment\\index.html",
+      "old": true
     },
     {
       "path": "commands\\security\\superthreatmode\\index.html"
@@ -413,13 +428,25 @@
       "old": true
     },
     {
-      "path": "commands\\trustables\\addadmin\\index.html"
+      "path": "commands\\trustables\\add-admin\\index.html"
     },
     {
-      "path": "commands\\trustables\\addmod\\index.html"
+      "path": "commands\\trustables\\add-mod\\index.html"
     },
     {
-      "path": "commands\\trustables\\addowner\\index.html"
+      "path": "commands\\trustables\\add-owner\\index.html"
+    },
+    {
+      "path": "commands\\trustables\\addadmin\\index.html",
+      "old": true
+    },
+    {
+      "path": "commands\\trustables\\addmod\\index.html",
+      "old": true
+    },
+    {
+      "path": "commands\\trustables\\addowner\\index.html",
+      "old": true
     },
     {
       "path": "commands\\trustables\\admins\\index.html"
@@ -428,16 +455,35 @@
       "path": "commands\\trustables\\mods\\index.html"
     },
     {
-      "path": "commands\\trustables\\owner\\index.html"
+      "path": "commands\\trustables\\owner\\index.html",
+      "old": true
     },
     {
-      "path": "commands\\trustables\\removeadmin\\index.html"
+      "path": "commands\\trustables\\remove-admin\\index.html"
     },
     {
-      "path": "commands\\trustables\\removemod\\index.html"
+      "path": "commands\\trustables\\remove-mod\\index.html"
     },
     {
-      "path": "commands\\trustables\\removeowner\\index.html"
+      "path": "commands\\trustables\\remove-owner\\index.html"
+    },
+    {
+      "path": "commands\\trustables\\removeadmin\\index.html",
+      "old": true
+    },
+    {
+      "path": "commands\\trustables\\removemod\\index.html",
+      "old": true
+    },
+    {
+      "path": "commands\\trustables\\removeowner\\index.html",
+      "old": true
+    },
+    {
+      "path": "commands\\trustables\\show-owner\\index.html"
+    },
+    {
+      "path": "commands\\trustables\\show-whitelist\\index.html"
     },
     {
       "path": "commands\\trustables\\unwhitelist\\index.html"
@@ -446,7 +492,8 @@
       "path": "commands\\trustables\\whitelist\\index.html"
     },
     {
-      "path": "commands\\trustables\\wlisted\\index.html"
+      "path": "commands\\trustables\\wlisted\\index.html",
+      "old": true
     },
     {
       "path": "config\\index.html"
@@ -726,6 +773,9 @@
       "path": "img\\rexz.png"
     },
     {
+      "path": "img\\rexzauth.png"
+    },
+    {
       "path": "img\\rexzconfig.png",
       "old": true
     },
@@ -800,6 +850,9 @@
       "path": "robots.txt"
     },
     {
+      "path": "security\\index.html"
+    },
+    {
       "path": "setup\\index.html"
     },
     {
@@ -813,6 +866,9 @@
     },
     {
       "path": "tags\\addsticker\\index.html"
+    },
+    {
+      "path": "tags\\administration\\index.html"
     },
     {
       "path": "tags\\afk\\index.html"
@@ -973,7 +1029,11 @@
       "path": "ticket-system\\index.html"
     },
     {
-      "path": "whstisrexz\\index.html"
+      "path": "whatisrexz\\index.html"
+    },
+    {
+      "path": "whstisrexz\\index.html",
+      "old": true
     },
     {
       "path": "whyrexz\\index.html"

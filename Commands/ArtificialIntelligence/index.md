@@ -13,22 +13,32 @@ tags: [ai, artificialintelligence, commands] # Tags to find page easily with sea
 route: "/ai/" # Change default route set by retype
 ---
 
-# RexZ AI
-## Introduction
-The ai command in RexZ enables an advanced AI chatbot that interacts with server members, providing a dynamic and engaging user experience. This feature leverages powerful natural language processing capabilities to understand and respond to a wide range of user inputs.
+## Ask Command  
+Ask AI chatbot a question.  
 
-## Features
-Natural Conversation: The AI chatbot can hold natural and fluid conversations with users, making interactions feel more human-like.
-Versatile Responses: The chatbot can answer questions, provide information, and engage in casual conversation, adapting to various topics and contexts.
-Customizable Behavior: Server administrators can fine-tune the chatbot’s behavior and responses to better match the server’s community and rules.
-## Usage
-### Basic Command
-To activate the AI chatbot, use the following command:
-!!!primary Syntax
-`-ask [prompt]`
-!!!
-!!!primary Alias
-`ai`
-!!!
-### Example
---![](/img/Commands/AI/ask.png)--
+### Description  
+Enables users to ask questions directly to the AI chatbot for quick responses.  
+
+{.compact}  
+Aliases  | Usage  
+---      | ---  
+ai       | Get an answer using RexZ AI  
+
+### Example  
+--![](../../img/Commands/AI/ask.png)--  
+
+---
+
+## Gpt Command  
+Ask OpenAI chatbot a question.  
+
+### Description  
+Allows users to interact with the AI-powered chatbot integrated into RexZ.  
+
+{.compact}  
+Aliases  | Usage  
+---      | ---  
+rexz     | Get an answer using RexZ AI  
+
+### Example  
+--![](../../img/Commands/AI/gpt.png)--
