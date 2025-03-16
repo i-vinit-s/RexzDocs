@@ -23,7 +23,7 @@ By adding and using RexZ bot in your Discord server, you agree to the following 
 - The bot must not be misused or exploited in any way that goes against **Discord’s Terms of Service**.
 
 ## 2. Announcements & Notifications
-- RexZ may send important updates, announcements, or security alerts in a server's **logs or general channels**.
+- RexZ may send important updates, announcements, or security alerts in a server's **rexz-log channel**.
 - These announcements may include **@everyone** mentions to ensure critical updates reach all server owners/trusted admins.
 - If you do not wish to receive these announcements, you can:
   - Restrict the bot's permissions in certain channels.
